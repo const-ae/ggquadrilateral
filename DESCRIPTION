@@ -1,0 +1,19 @@
+Package: ggquadrilateral
+Type: Package
+Title: Draw arbitrary quadrilaterals in 'ggplot2'
+Version: 0.1.0
+Authors@R: person("Constantin", "Ahlmann-Eltze", email = "artjom31415@googlemail.com", role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0002-3762-068X"))
+Description: Adds a new geom to 'ggplot2' that can draw
+  arbitrary quadrilaterals. This would also be possible using
+  'geom_polygon()', but this function is more convenient to use.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    scales
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0),
+    tripack
